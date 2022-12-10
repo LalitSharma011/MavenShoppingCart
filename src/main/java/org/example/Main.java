@@ -92,8 +92,6 @@ public class Main {
             choice = scanner.next();
         } while (choice.equalsIgnoreCase("y"));
 
-
-
         String coupon = "extra10";
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter coupon code: ");
@@ -101,9 +99,6 @@ public class Main {
 
         int couponDisc = 0;
         int moredisc = 0;
-
-
-
 
         if (coupon.equals(code)) {
             couponDisc = 10;

@@ -25,7 +25,6 @@ class ProductTest {
         Product p = new Product(1, "Biscuit", 800, 10, "Oreo");
         assertEquals(800, p.getQuantity(),"Error in product Quantity");
     }
-
     @Test
     void getPrice() {
         Product p = new Product(1, "Biscuit", 800, 10, "Oreo");
